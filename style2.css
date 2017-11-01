@@ -1,1 +1,12 @@
+body {
+    background-image: url("http://myeclecticmind.com/wp-content/gallery/Halloween%20Art/Illuminating2013HeatherGleason.jpg");
+    width: 768px;
+    color: #eee;
+}
+
 h1, h2, h3 {color: purple;}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
