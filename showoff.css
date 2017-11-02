@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab');
+
 #topbar {
     list-style-type: none;
     background-color: #8CE8D5;
     padding: 0px;
     margin: 0;
     position: fixed;
+    display: block;
+    width: 100%;
+    top: 0px;
 }
 
 #topbar li {
@@ -14,7 +19,22 @@
     padding: 15px 0px;
 }
 
+#topbar a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
 #topbar li:hover {
-    background-color: #028469;
-    color: white;
+    animation: darker 1s;
+}
+
+@keyframes darker {
+    to {background-color: #028469; color: white;}
+}
+
+h1 {
+    margin-top: 50px;
 }
