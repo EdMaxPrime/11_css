@@ -1,0 +1,20 @@
+#topbar {
+    list-style-type: none;
+    background-color: #8CE8D5;
+    padding: 0px;
+    margin: 0;
+    position: fixed;
+}
+
+#topbar li {
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+#topbar li:hover {
+    background-color: #028469;
+    color: white;
+}
