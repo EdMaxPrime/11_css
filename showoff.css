@@ -28,7 +28,7 @@
 }
 
 #topbar li:hover {
-    animation: darker 1s;
+    animation: darker 2s forwards;
 }
 
 @keyframes darker {
@@ -37,4 +37,5 @@
 
 h1 {
     margin-top: 50px;
+    border-bottom: dotted 3px purple;
 }
